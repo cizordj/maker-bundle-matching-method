@@ -1,0 +1,11 @@
+{
+    "$schema": "/home/cezar/.config/nvim/pack/plugins/opt/phpactor/phpactor.schema.json",
+    "language_server_phpstan.enabled": true,
+    "symfony.enabled": true,
+    "indexer.exclude_patterns": [
+        "/vendor/**/Tests/**/*",
+        "/vendor/**/tests/**/*",
+        "/var/cache/**/*",
+        "/vendor/composer/**/*"
+    ]
+}
